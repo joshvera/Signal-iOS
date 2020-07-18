@@ -234,7 +234,7 @@ DEPENDENCIES:
   - Argon2/Tests (from `https://github.com/signalapp/Argon2.git`)
   - AxolotlKit (from `https://github.com/signalapp/SignalProtocolKit.git`, branch `master`)
   - AxolotlKit/Tests (from `https://github.com/signalapp/SignalProtocolKit.git`, branch `master`)
-  - blurhash (from `https://github.com/joshvera/blurhash`, branch `signal-master`)
+  - blurhash (from `https://github.com/joshvera/blurhash`, branch `add-type-annotation`)
   - Curve25519Kit (from `https://github.com/signalapp/Curve25519Kit`)
   - Curve25519Kit/Tests (from `https://github.com/signalapp/Curve25519Kit`)
   - GRDB.swift/SQLCipher
@@ -288,7 +288,7 @@ EXTERNAL SOURCES:
     :branch: master
     :git: https://github.com/signalapp/SignalProtocolKit.git
   blurhash:
-    :branch: signal-master
+    :branch: add-type-annotation
     :git: https://github.com/joshvera/blurhash
   Curve25519Kit:
     :git: https://github.com/signalapp/Curve25519Kit
@@ -332,7 +332,7 @@ CHECKOUT OPTIONS:
     :commit: debc5cb31197bcdbbd8e5d7d03320105e6c169a6
     :git: https://github.com/signalapp/SignalProtocolKit.git
   blurhash:
-    :commit: c0538ea830d4ecc0f4dfcaf3dc53c0003847df20
+    :commit: 0c35b06b664d15739cb6224764b9b27bd2edd9ea
     :git: https://github.com/joshvera/blurhash
   Curve25519Kit:
     :commit: 4fc1c10e98fff2534b5379a9bb587430fdb8e577
@@ -399,6 +399,6 @@ SPEC CHECKSUMS:
   ZKGroup: 15a08eed5870a44b9dd14af0824ac95f6eed7380
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: 7ce38f13ff43735d1bb3d0eb09ca00232cc35547
+PODFILE CHECKSUM: cfcc25d25bd2d44f9f8184aeaed6ebb5d25f701d
 
-COCOAPODS: 1.9.2
+COCOAPODS: 1.10.0.beta.1
