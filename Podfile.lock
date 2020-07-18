@@ -234,7 +234,7 @@ DEPENDENCIES:
   - Argon2/Tests (from `https://github.com/signalapp/Argon2.git`)
   - AxolotlKit (from `https://github.com/signalapp/SignalProtocolKit.git`, branch `master`)
   - AxolotlKit/Tests (from `https://github.com/signalapp/SignalProtocolKit.git`, branch `master`)
-  - blurhash (from `https://github.com/signalapp/blurhash`, branch `signal-master`)
+  - blurhash (from `https://github.com/joshvera/blurhash`, branch `signal-master`)
   - Curve25519Kit (from `https://github.com/signalapp/Curve25519Kit`)
   - Curve25519Kit/Tests (from `https://github.com/signalapp/Curve25519Kit`)
   - GRDB.swift/SQLCipher
@@ -289,7 +289,7 @@ EXTERNAL SOURCES:
     :git: https://github.com/signalapp/SignalProtocolKit.git
   blurhash:
     :branch: signal-master
-    :git: https://github.com/signalapp/blurhash
+    :git: https://github.com/joshvera/blurhash
   Curve25519Kit:
     :git: https://github.com/signalapp/Curve25519Kit
   GRKOpenSSLFramework:
@@ -333,7 +333,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/signalapp/SignalProtocolKit.git
   blurhash:
     :commit: c0538ea830d4ecc0f4dfcaf3dc53c0003847df20
-    :git: https://github.com/signalapp/blurhash
+    :git: https://github.com/joshvera/blurhash
   Curve25519Kit:
     :commit: 4fc1c10e98fff2534b5379a9bb587430fdb8e577
     :git: https://github.com/signalapp/Curve25519Kit
@@ -372,7 +372,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Argon2: b11fcfa58057e2522356ddc6a817cd875297edfe
   AxolotlKit: ac03e4d79486b62d08282c840da410116227683e
-  blurhash: 150e9ffe986f028a38f7b469b5a279eab45352df
+  blurhash: 4b3b2b8909cf41ab59fa349788654b8387284ff4
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   Curve25519Kit: e63f9859ede02438ae3defc5e1a87e09d1ec7ee6
   GRDB.swift: 083ec261ce573888d8ed2eae1b49bc0bf40d9e2c
@@ -399,6 +399,6 @@ SPEC CHECKSUMS:
   ZKGroup: 15a08eed5870a44b9dd14af0824ac95f6eed7380
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: dab5026e19ce384ecc5d8b2925d52f9e16cb38b4
+PODFILE CHECKSUM: 7ce38f13ff43735d1bb3d0eb09ca00232cc35547
 
 COCOAPODS: 1.9.2

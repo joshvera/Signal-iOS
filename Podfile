@@ -24,7 +24,7 @@ pod 'Curve25519Kit', git: 'https://github.com/signalapp/Curve25519Kit', testspec
 pod 'SignalMetadataKit', git: 'https://github.com/signalapp/SignalMetadataKit', testspecs: ["Tests"]
 # pod 'SignalMetadataKit', path: '../SignalMetadataKit', testspecs: ["Tests"]
 
-pod 'blurhash', git: 'https://github.com/signalapp/blurhash', branch: 'signal-master'
+pod 'blurhash', git: 'https://github.com/joshvera/blurhash', branch: 'signal-master'
 # pod 'blurhash', path: '../blurhash'
 
 pod 'SignalServiceKit', path: '.', testspecs: ["Tests"]
